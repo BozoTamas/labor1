@@ -8,7 +8,7 @@ function rndImg(){
 }
 
 function felt() {
-	
+
 }
 
 rndImg();
