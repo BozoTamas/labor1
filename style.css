@@ -1,0 +1,323 @@
+@font-face { font-family: Bebas; src: url('fonts/BEBAS.ttf'); } 
+
+* {	box-sizing: border-box; }
+
+body { 
+	margin: 0 auto; 
+	color: #ffffff;
+	background-color: darkgrey;
+}
+
+.menusav {
+	margin: 0 auto;
+	width: 100%;
+	padding: 1em 0;
+	background-color: lightgray;
+	box-shadow: 0 0.1em 4px lightgray;
+	margin-bottom: 1em;
+}
+
+.menu {
+	margin: 0 auto;
+	width: 95%;
+	height: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(50, 50, 50); 
+	list-style-type: none;
+	border: 2px solid #cccccc;
+	border-radius: 0.6em;
+}
+
+ul li { float: left; }
+
+ul li a {
+	display: block;
+	padding: 1em 1em;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Bebas;
+}
+
+ul li a:hover:not(.active) { 
+	background-color: rgba(176, 54, 64, 0.5); 
+}
+
+ul li a.active { 
+	background-color: rgb(176, 64, 64); 
+}
+
+.resz {
+	width: 95%;
+	margin: 0 auto;
+	padding: 0.25em 0; 
+	background-color: grey;
+	box-shadow: 0.1em 0.1em 4px grey;
+	margin-bottom: 1em;
+}
+
+.resz .tartalom {
+	margin: 0 auto;
+	padding: 1em 0;
+	width: 95%
+}
+
+.kozep { 
+	text-align: center; 
+}
+
+.bal { 
+	text-align: left; 
+}
+
+.jobb { 
+	text-align: right; 
+}
+
+.sorkizart { 
+	text-align: justify; 
+}
+
+.sor:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sor > div[class*='oszlop-'] {
+	float: left; 
+}
+
+img {
+	display: inline-block;
+	max-width: 90%;
+	height: auto;
+}
+
+img .allokep {
+	height: 25em; 
+}
+
+.sor > .oszlop-1 {
+	width: 100%;
+	color: white;
+}
+
+.sor > .oszlop-2 {
+	width: 100%;
+	text-align: center;
+}
+
+.sor > .oszlop-3 {
+	width: 100%;
+	margin: auto;
+	padding: 1em 0;
+}
+
+.sor > .oszlop-4 {
+	width: 25%;
+}
+
+.sor > .oszlop-5 {
+	width: 20%;
+}
+
+.sor > .oszlop-66 {
+	width: 66.66%;
+}
+
+
+.sor > .oszlop-75 {
+	width: 75%;
+}
+
+.jatek-gomb {
+	width: 95%;
+	height: 3em;
+	display: inline-block;
+	background-color: #ffffff;
+	color: rgb(176, 34, 34);
+	font-size: 1em;
+	font-family: Bebas;
+	border-radius: 0.25em;
+}
+
+.ful {
+	overflow: hidden;
+	background-color: rgb(50, 50, 50);
+	border: 2px solid #cccccc;
+	border-radius: 0.6em;
+}
+
+.ful button {
+	font-family: Bebas;
+	color: #ffffff;
+	background-color: rgb(50, 50, 50);
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0.8em 1em;
+	transition: 0.5s;
+	font-size: 14px;
+}
+
+.ful button:hover {
+	background-color: rgba(176, 4, 4, 0.5);
+}
+
+.ful button.active {
+	background-color: rgb(176, 4, 4); 
+}
+
+.ful-tartalom {
+	display: none;
+	padding: 0.5em 0.8em;
+}
+
+.code {
+	color: rgb(81,140,202);
+}
+
+.box {
+	display: inline-block;
+	background-color: rgb(50, 50, 50);
+	padding: 25%;
+	width: 50%;
+	height: auto;
+}	
+
+.border-1 {
+	border-radius: 30px;
+}
+
+.border-2 {
+	border-radius: 30px 30px 0px 0px;
+}
+
+.border-3 {
+	border-radius: 30px 0px 30px 0px;
+}
+
+.border-4 {
+	border-radius: 30px 0px 30px 30px;
+}
+
+.box-1 {
+	box-shadow: 10px 10px 0px 0px #518cca;
+}
+
+.box-2 {
+	box-shadow: 10px 10px 10px 0px #518cca;
+}
+
+.box-3 {
+	box-shadow: 10px 10px 0px 5px #518cca;
+}
+
+.box-4 {
+	box-shadow: 10px 10px 10px 5px #518cca;
+}
+
+span[class*="decoration-"] {
+	border-radius: 10px;
+	border: solid #518cca 5px;
+	padding: 2px;
+	line-height: 3em;
+}
+
+.decoration-1 {
+	box-decoration-break: slice;
+	-webkit-box-decoration-break: slice;
+}
+
+.decoration-2 {
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+
+.chetContainer {
+	border-radius: 10px;
+	box-shadow: 0 0.1em 4px rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.sor:not(.mobile) > div[class*='oszlop-'] { 
+		width: 100%; 
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	img .allokep {
+		height: 10em; 
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	img .allokep {
+		height: 10em; 
+	}
+
+}
+
+
+#messages > p {
+	background: lightgray;
+	color: black;
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+.button {
+  border-radius: 4px;
+  background-color: lightgray;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  background-color: rgba(155,12,45,0.5)
+}
+
+.button:hover span:after {
+  background-color: rgba(155,12,45,0.5)
+}
