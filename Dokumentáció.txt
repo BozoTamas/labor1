@@ -1,0 +1,53 @@
+Rendszerterv:
+
+A rendszerünk célja a magyar általános és középiskolás korosztály tanulmányi fejlődősének segítése.
+Ennek megvalósítását internetes oldallal oldjuk meg, mely lehetőséget ad arra a tanulóknak, hogy otthonról
+a nap bármely részében csiszolhassák a tudásukat.
+Fontos megjegyezni, hogy ez a projekt csak a diákok memóriájának és logikájának
+fejlesztésére szolgál, nem lehet vele kiváltani a tanárok mindennapos munkáját.
+A honlap megírásához szükséges HTML, CSS, valamint JavaScript ismeret, melyek ötvözésével meg fog születni a
+kész termék.
+Fontos, hogy a felhasználóknak biztosítva legyen egy használati útmutató a játékhoz.
+
+Játékszabály:
+
+A játék kezdetén a program egy véletlenszerűen kiválasztott képet mutat meg a játékosnak, melyen magyarország térképe látható, ahol
+az egyik megye piros színnel ki van emelve.
+A kép mellet megjelenik négy gomb is, melyeken különböző válaszlehetőségek vannak és ezekből kell kiválasztani egyet.
+A helyes választ a gomb színének zöldre állításával jelezzük, a hibásat pedig pirossal.
+
+Követelmény:
+
+- Legyen egy kép, mely random tölt be képet fájlból.
+- Legyen négy gomb, melyből háromra random generáljuk a válaszlehetőségeket.
+- A negyedik gomb tartalmazza a helyes választ a kérdésre.
+- A helyes válasz véletlenszerűen kerüljön elhelyezésre a gombok egyikén.
+- A gombok jelezzék vissza ha helyes vagy helytelen válaszra kattintottunk.
+
+Fizikai környezet:
+
+A fejélesztés Notepad++ illetve Sublime Text szövegszerkesztő programok segítségével történik, melyben
+HTML, CSS és JavaScript nyelveket alkalmazunk a célunk eléréséhez.
+
+A program működése:
+
+A kezdőlap megnyitása után a felhasználó a navigációs sáv segítségével választhat a különböző lehetőségek közül
+(Játék; Toplista megtekintése; Súgó). Amint a navigációs menüre visszük a kurzort az aktuális menüpont
+sötétpiros háttérrel jelenik meg, illetve a kurzor helyzetétől függően a fennmaradó menüpontok halványpiros
+színt kapnak amikor feléjük ér a kurzor.
+Amennyiben a felhasználó a "SÚGÓ" menüpontot választja, a program átirányítja egy új oldalra, ahol a játék leírásást
+és szabályait találhatja meg.
+
+Jelenlegi helyzet:
+
+- Jelenleg a projekt majdnem befejezett.
+- Az összes oldalon megtalálható a navigációs sáv, melynek segítségével szabadon tudunk az egyes
+  menüpontok között (nyitóoldal/játékoldal/toplista/súgó).
+- A játékoldal betöltésével azonnal generálódnak a gombok és egy random kép.
+- A súgóban megtalálható a játék leírása.
+
+Projektterv
+	- 2019.09.22-23. -- HTML és CSS nyelv segítségével lapok megírása/dizájn.
+	- 2019.09.24. -- Az eddig megírt egységek tesztelése és esetleges hibák javítása.
+	- 2019.10.01. -- Kinézetbeli változtatások a letisztultabb kezelőfelületért. Random generálás tesztelése.
+	- 2019.10.02. -- 
