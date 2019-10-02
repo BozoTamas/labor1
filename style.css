@@ -292,10 +292,12 @@ span[class*="decoration-"] {
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 100%;
+  width: 50%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  vertical-align: right;
+  float: right;
 }
 
 .button span {
@@ -320,4 +322,33 @@ span[class*="decoration-"] {
 
 .button:hover span:after {
   background-color: rgba(155,12,45,0.5)
+}
+
+.kepsav {
+	float: left;
+	width: 45%;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.helyes {
+	background-color: green;
+}
+
+.helytelen {
+	background-color: red;
+}
+
+.doboz {
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+	font-size: 1em;
+	font-family: Bebas;
+	border-radius: 0.25em;
 }
