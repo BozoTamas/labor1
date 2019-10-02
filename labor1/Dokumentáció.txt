@@ -50,3 +50,4 @@ Projektterv
 	- 2019.09.22-23. -- HTML és CSS nyelv segítségével lapok megírása/dizájn.
 	- 2019.09.24. -- Az eddig megírt egységek tesztelése és esetleges hibák javítása.
 	- 2019.10.01. -- Kinézetbeli változtatások a letisztultabb kezelőfelületért. Random generálás tesztelése.
+	- 2019.10.02. -- 
