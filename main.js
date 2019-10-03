@@ -32,13 +32,12 @@ function ellenorzes(element) {
 		}
 	}
 
-
 	if (imageNumber < 18) {
 		imageNumber++;	
 		setTimeout(rndImg, 1500);
 	}
 	if (imageNumber == 18) {
-		alert("A játék véget ért!");
+		alert("A játék véget ért!\nPontszám: " + points + "\nÚj játék kezdéshez kattints az OK-ra!");
 		newgame();
 	} 
 	
